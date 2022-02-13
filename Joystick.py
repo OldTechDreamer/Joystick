@@ -19,7 +19,7 @@ import struct
 import threading
 
 class Joystick():
-  STARTUP_THRESHOLD = 0.1		# Time to wait before processing events
+	STARTUP_THRESHOLD = 0.1		# Time to wait before processing events
 
 	def __init__(self, device, logging = True):
 		self.device = device
